@@ -74,6 +74,15 @@ body {
 
 .section-title {
     color: var(--title-text-color);
+
+}
+
+.zagolovok {
+    color: var(--title-text-color);
+}
+
+.abzac {
+    color: var(--primary-text-color);
 }
 
 /* Features */
