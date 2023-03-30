@@ -1,9 +1,20 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет текста  #757575;
+ */
+/* белый #FFFFFF  */
+/* акцент #2196F3 */
+/* вторичный цвет фона #F5F4FA; */
+/* цвет банера и футера #2F303A */
+
+
 :root {
     --primary-text-color:#757575(0, 0, 0, 0.8);
     --title-text-color: #212121;
     --accent-color:#2196F3;
-    --primary-white-color: #ffffff;
-
+    --primary-white-color: #E5E5E5;
+    --logo-text: #000000;
+    --baner-footer: #2F303A;
+    --whitecolor: #FFFFFF;
 }
 
 body {
@@ -11,25 +22,83 @@ body {
     color: var(--primary-text-color);
 }
 
-.logo {
-    color: var(--title-text-color);
+.logostart {
+    color: var(--logo-text);
 }
 
-.logo:hover {
+.logostart:hover {
     color: var(--accent-color);
 }
+
+.logo-text {
+    color: var(--accent-color);
+}
+
+.logo-text:hover{
+        color: var(--logo-text);
+}
+
 
 /* Site nav */
 
 .site-nav .link {
-    color: var(--accent-color);
+    color: var(--logo-text);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: var(--title-text-color);
+    color: var(--accent-color);
 }
 
 .site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current:hover,
+.site-nav .link.current:focus {
+    color: var(--logo-text);
+}
+
+.list {
+    list-style: none;
+}
+
+/* Hero */
+
+.hero-title {
+    background-color: var(--baner-footer);
+    color: var(--whitecolor);
+}
+
+/* Section */
+
+.section-title {
     color: var(--title-text-color);
+}
+
+/* Features */
+
+.feature-list .title {
+    color: var(--title-text-color);
+}
+
+/* Examples */
+
+.work-list .title {
+    color: var(--title-text-color);
+}
+
+/* Button */
+.button {
+    color: var(--title-text-color);
+}
+
+.button .list{
+   color: var(--title-text-color);
+   background-color: var(--primary-white-color);
+}
+
+.button:hover {
+    color: var(--accent-color);
+    background-color: var(--primary-white-color);
 }
