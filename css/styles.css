@@ -69,6 +69,11 @@ body {
     color: #757575;
 }
 
+.link-adres:hover,
+.link-adres:focus {
+    color: var(--accent-color);
+}
+
 .list {
     list-style: none;
 }
@@ -129,6 +134,13 @@ body {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+
+
+.adreslist:hover,
+.adreslist:focus {
+    color: var(--accent-color);
+} 
+
 
 /* Button */
 .button {
