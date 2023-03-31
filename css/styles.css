@@ -1,6 +1,4 @@
 /* цвет основного текста #212121 */
-/* вторичный цвет текста  #757575;
- */
 /* белый #FFFFFF  */
 /* акцент #2196F3 */
 /* вторичный цвет фона #F5F4FA; */
@@ -40,7 +38,6 @@ body {
 
 .logo-text {
     color: var(--logo-text);
-    
 }
 
 .logo-text:hover{
@@ -51,8 +48,7 @@ body {
 /* Site nav */
 
 .site-nav .link {
-    color: var(--primary-text-color);
-    
+    color: var(--primary-text-color); 
 }
 
 .site-nav .link:hover,
@@ -72,13 +68,6 @@ body {
 .link-adres {
     color: #757575;
 }
-
-.link-adres:hover,
-.link-adres:focus,{
-    color: var(--accent-color);
-}
-
-
 
 .list {
     list-style: none;
