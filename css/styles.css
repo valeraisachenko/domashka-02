@@ -15,15 +15,23 @@
     --logo-text: #000000;
     --baner-footer: #2F303A;
     --whitecolor: #FFFFFF;
+    --two-bg-color: #F5F4FA;
 }
 
 body {
-    background-color: var(--primary-white-color);
+    background-color: var(--whitecolor);
     color: var(--primary-text-color);
+    font-family: roboto, sans-serif;
 }
 
 .logostart {
-    color: var(--logo-text);
+    color: var(--accent-color);
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
 }
 
 .logostart:hover {
@@ -31,18 +39,20 @@ body {
 }
 
 .logo-text {
-    color: var(--accent-color);
+    color: var(--logo-text);
+    
 }
 
 .logo-text:hover{
-        color: var(--logo-text);
+    color: var(--accent-color);
 }
 
 
 /* Site nav */
 
 .site-nav .link {
-    color: var(--logo-text);
+    color: var(--primary-text-color);
+    
 }
 
 .site-nav .link:hover,
@@ -59,6 +69,17 @@ body {
     color: var(--logo-text);
 }
 
+.link-adres {
+    color: #757575;
+}
+
+.link-adres:hover,
+.link-adres:focus,{
+    color: var(--accent-color);
+}
+
+
+
 .list {
     list-style: none;
 }
@@ -73,6 +94,7 @@ body {
 /* Section */
 
 .section-title {
+    background: var(--whitecolor);
     color: var(--title-text-color);
 
 }
@@ -85,7 +107,10 @@ body {
     color: var(--primary-text-color);
 }
 
-/* Features */
+/* Comanda */
+.comanda {
+    background-color: var(--two-bg-color);
+}
 
 .feature-list .title {
     color: var(--title-text-color);
@@ -97,9 +122,34 @@ body {
     color: var(--title-text-color);
 }
 
+/* adres */
+.adres {
+    color: var(--whitecolor);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+.adreslist {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
 /* Button */
 .button {
     color: var(--title-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .button .list{
@@ -108,6 +158,24 @@ body {
 }
 
 .button:hover {
-    color: var(--accent-color);
-    background-color: var(--primary-white-color);
+    color: var(--whitecolor);
+    background-color: var(--accent-color);
+}
+
+.titl {
+    color: #212121;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+
+.benefits {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
